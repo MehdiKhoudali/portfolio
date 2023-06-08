@@ -9,8 +9,8 @@ export default function Footer() {
                     <img className="rounded-full h-8 md:h-12" src="https://pbs.twimg.com/profile_images/1663816689752866816/wQT7jk4G_400x400.jpg" />
                     Mehdi.Khoudali
                 </a>
-                <h1 className="my-4 font-bold md:text-2xl">Want to know more about<br />SaaS and EntrepreneurShip ? Follow me.</h1>
-                <button className="my-4 bg-purple-800 p-2 md:p-4 rounded-md items-center text-sm text-center"><a href="#">Join my newsletter</a></button>
+                <h1 className="my-4 md:text-xl">Want to know more about<br />SaaS and EntrepreneurShip ? Follow me.</h1>
+                <button className="my-4 bg-purple-800 p-2 md:p-4 rounded-md items-center text-sm text-center"><a href="https://mehdi-newsletter.beehiiv.com/subscribe">Join my newsletter</a></button>
 
             </div>
             
