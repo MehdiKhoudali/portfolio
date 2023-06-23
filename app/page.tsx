@@ -5,6 +5,7 @@ import Hero from "./components/landing/Hero"
 import Tweets from "./components/landing/Tweets"
 import Footer from "./components/landing/Footer"
 import Blog from './components/landing/Blog'
+import Skills from './components/landing/Skills'
 
 export default function Home() {
   return (
@@ -12,8 +13,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Tweets />
+      <Skills />
       <Footer />
-      <Blog />
     </main>
   )
 }

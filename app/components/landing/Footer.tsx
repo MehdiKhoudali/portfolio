@@ -6,7 +6,7 @@ export default function Footer() {
 
             <div className="md:flex gap-4 items-center md:justify-between">
                 <a className="flex items-center gap-4 my-4">
-                    <img className="rounded-full h-8 md:h-12" src="https://pbs.twimg.com/profile_images/1663816689752866816/wQT7jk4G_400x400.jpg" />
+                    <img className="rounded-full h-8 md:h-12" src="https://pbs.twimg.com/profile_images/1670426661395873796/OVgETSHN_400x400.jpg" />
                     Mehdi.Khoudali
                 </a>
                 <h1 className="my-4 md:text-xl">Want to know more about<br />SaaS and EntrepreneurShip ? Follow me.</h1>
