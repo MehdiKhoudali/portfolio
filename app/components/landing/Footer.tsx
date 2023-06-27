@@ -13,7 +13,7 @@ export default function Footer() {
                     <img alt='Mehdi Khoudali' className="rounded-full h-8 md:h-12" src="https://pbs.twimg.com/profile_images/1670426661395873796/OVgETSHN_400x400.jpg" />
                     Mehdi.Khoudali
                 </a>
-                <h1 className="my-4 md:text-xl">Want to know more about<br />SaaS and EntrepreneurShip ? Follow me.</h1>
+                <h2 className="my-4 font-medium md:text-xl">Want to know more about<br />SaaS and EntrepreneurShip ? Follow me.</h2>
                 <button className="my-4 bg-purple-800 p-2 md:p-4 rounded-md items-center text-sm text-center"><a href="https://mehdi-newsletter.beehiiv.com/subscribe">Join my newsletter</a></button>
             </div>
             <ul>
