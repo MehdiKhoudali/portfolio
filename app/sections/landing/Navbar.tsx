@@ -2,10 +2,10 @@
 
 import { useState } from "react";
 
+import { FaArrowRight } from 'react-icons/fa'
+
 export default function Navbar() {
-
     const [show, setshow] = useState(false);
-
     return (
         <div className=" bg-black">
             <nav className="2xl:container 2xl:mx-auto sm:py-6 sm:px-7 py-5 px-4">
@@ -26,11 +26,9 @@ export default function Navbar() {
                             </svg>
                         </a>
                     </div>
-                    <div className=" flex space-x-3 items-center">
-                        <h1 className=" font-normal text-2xl leading-6 text-white">Mehdi.K</h1>
-                    </div>
+
                     <div className="hidden sm:flex flex-row space-x-4">
-                        <button className="rounded-md flex space-x-2 w-24 h-10 font-normal text-sm leading-3 text-indigo-700 bg-transparent border border-indigo-700 focus:outline-none focus:bg-indigo-700 hover:bg-indigo-700 hover:text-white duration-150 justify-center items-center"><a href="https://twitter.com/mehdi_khoudali">My twitter</a></button>
+                        <button className="md:mx-auto hover:scale-[0.9] duration-100 bg-purple-800 p-2 md:px-8 rounded-full items-center text-center flex justify-center gap-2"><a href="mailto:mehdikhoudalpro@gmail.com">Get in touch with me</a><FaArrowRight /></button>
                         <button className="rounded-md flex space-x-2 w-24 h-10 font-normal text-sm leading-3 text-white bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:bg-indigo-600 hover:bg-indigo-600 duration-150 justify-center items-center"><a href="https://mehdi-newsletter.beehiiv.com/subscribe">Newsletter</a></button>
                     </div>
                     {/* Burger Icon */}
@@ -64,12 +62,11 @@ export default function Navbar() {
                         </a>
                     </div>
                     <div className="flex flex-col gap-4 mt-4 w-80 mx-auto ">
-                        <button className="rounded-md flex space-x-2 w-full h-10 font-normal text-sm leading-3 text-indigo-700 bg-indigo-600 bg-opacity-0 hover:opacity-100 duration-100 border border-indigo-700 focus:outline-none hover:bg-indigo-700 hover:text-white duration-150 justify-center items-center"><a href="https://twitter.com/mehdi_khoudali">Twitter</a></button>
-                        <button className="rounded-md flex space-x-2 w-full h-10 font-normal text-sm leading-3 text-white bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-700 focus:bg-indigo-600 hover:bg-indigo-600 duration-150 justify-center items-center"><a href="https://mehdi-newsletter.beehiiv.com/subscribe">Newsletter</a></button>
+                        <button className="md:mx-auto hover:scale-[0.9] duration-100 bg-purple-800 p-2 md:px-8 rounded-full items-center text-center flex justify-center gap-2"><a href="mailto:mehdikhoudalpro@gmail.com">Get in touch with me</a><FaArrowRight /></button>
+                        <button className="md:mx-auto hover:scale-[0.9] duration-100 bg-purple-800 p-2 md:px-8 rounded-full items-center text-center flex justify-center gap-2"><a href="https://mehdi-newsletter.beehiiv.com/subscribe">My newsletter</a><FaArrowRight /></button>
                     </div>
                 </div>
             </nav>
         </div>
-
     );
 }
